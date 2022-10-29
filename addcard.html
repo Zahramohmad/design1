@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/addcard.css">
+
+    <link rel="stylesheet" href="css/normal.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/all.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@100;200&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="one">
+        <div class="left">
+            <input class="search" type="text" placeholder="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <div class="midd"> <a href="#"><h3>Zahra mohmed</h3></a></div>
+        <div class="right">
+            <i class="fa-solid fa-user"></i>
+            <i class="fa-regular fa-heart"></i>
+            <i class="fa-solid fa-cart-shopping"></i>
+    
+        </div>
+    </nav>
+    <hr class="rrr">
+<div class="links">
+    <a   href="tamp.html"><h3>HOME</h3></a>
+    <a href="about.html"><H3>ABOUT</H3></a>
+    <a class="action"  href="shop.html"><H3>SHOP</H3></a>
+    <a href="catalouge"><H3>CATALOUGE</H3></a>
+    <a href="new.html"><H3>NEW ARRIVALS</H3></a>
+    <a href="contact.html"><H3>CONTACT</H3></a>
+</div>
+<div class="text">
+    <a href="tamp.html"><h4 class="active">HOME</h4></a>
+
+<H4>/</H4>
+<H4 class="eso">Add to Card</H4>
+</div>
+<br>
+<br>
+<br>
+<section class="fil">
+    <div class="tab">
+        <center> <table>
+            <tr>
+              <th>Image</th>
+              <th>Product</th>
+              <th>Price</th>
+              <th>Quantity</th>
+              <th>Total</th>
+            </tr>
+            <tr>
+              <td><img src="img\cloth_1.jpg"   width="100px" alt="cloth_1">
+              </td>
+              <td>Tank Top T-Shirt</td>
+              <td>$50</td>
+              <td><div class="card">
+                <button onclick="decreent()">-</button>
+                <h2 id="root"></h2>
+                <button onclick="increent()">+</button>
+                <script>
+                var data=1;
+                document.getElementById("root").innerText=data;
+                function decreent(){
+                    data=1;
+                    document.getElementById("root").innerText=data;
+                }
+                function increent(){
+                    data=data+1;
+                    document.getElementById("root").innerText=data;
+                }
+                </script>
+                </td>
+              <td>$50</td>
+            </tr>
+            <tr>
+              <td><img src="img\cloth_2.jpg" alt="cloth_2" width="100px"></td>
+              <td>Polo T-Shirt </td>
+              <td>$50</td>
+              <td><div class="card">
+                <button onclick="decrement()">-</button>
+                <h2 id="root4"></h2>
+                <button onclick="increment()">+</button>
+                <script>
+                var data=1;
+                document.getElementById("root4").innerText=data;
+                function decrement(){
+                    data=1;
+                    document.getElementById("root4").innerText=data;
+                }
+                function increment(){
+                    data=data+1;
+                    document.getElementById("root4").innerText=data;
+                }
+                </script>
+                </td>
+              <td>$50</td>
+            </tr>
+          </table>
+        </center>
+    
+    </div>
+</section>
+<br>
+<br>
+<section class="shid2">
+    
+    <div class="div1">
+        <button class="asd">UPDATE CART</button>
+        <button class="asd">CONTINUE SHOPPING</button>
+        <div class="EME">
+            <h2>Coupon</h2>
+            <p>enter your Coupon code if you have one</p>
+            <br>
+            <input type="text" placeholder="Coupon code">
+            <button>APPLY COUPON</button>
+        </div>
+    </div>
+    <div class="hllo">
+        <div class="two">
+            <h3>CART TOTALS</h3>
+            
+            <div class="ull">
+                <ul>
+                    <li>subtotal</li>
+                </ul>
+                <ul>
+                    <li>$230.00</li>
+                </ul>
+            </div>
+            <div class="ull">
+                <ul>
+                    <li>subtotal</li>
+                </ul>
+                <ul>
+                    <li>$230.00</li>
+                </ul>
+               
+            </div>
+    <br>
+    <a href="checkout.html"><button>PROCEED TO CHECKOUT</button></a>
+    
+        </div>
+    </div>
+</section>
+<br>
+<br>
+<br>
+<br>
+<br><br>
+<hr class="coo">
+<br>
+<br>
+<footer>
+<div><Ul>
+<li><h4>Navigations</h4></li>
+<li>Sell online</li>
+<li>Mobile commerce</li>
+<li>Point of sale</li>
+<li>Features</li>
+</Ul>
+</div>
+<div>
+    <ul>
+        <br>
+            <br>
+            <br>
+<li>Dropshipping</li>
+<li>Hardware</li>
+<li>Shopping cart</li>
+</ul>
+</div>
+<div>
+    <ul>
+        <br>
+            <br>
+            <br> 
+        <li>Software</li>
+        <li>Store builder</li>
+        <li>Shopping cart</li>
+        </ul>
+</div>
+<div>
+    <ul>
+        <li><h4>Promo</h4></li>
+        <li><img src="img\hero_1.jpg" alt="" width="100px"></li>
+        <li><p>Finding Your Perfect Shoes</p>
+        <p class="nnn">Promo from nuary 15-25, 2019</p></li>
+        </ul>
+
+
+</div>
+<div>
+    <Ul>
+        
+        <li><h4>Contact Info</h4></li>
+        <li class="foot"><i  class="fa-solid fa-location-dot"></i><p class="ttt">shubra massr</p></li>
+        <li  class="foot"><i class="fa-solid fa-phone-volume"></i><p class="ttt">01555617666</p>
+        </li>
+        <li class="foot"><i class="fa-solid fa-envelope"></i> <p class="ttt">mohmadzhara@gmail.com</p></li>
+       <br>
+       <br>
+        <li>Subscribe</li>
+        <br>
+        <li><input class="vvv" type="text" placeholder="EMAIL"><button class="bbb" type="submit">send</button></li>
+        </Ul>
+</div>
+</footer>
+<br>
+<br>
+<div class="end"><p class="endo">Copyright ©2021 All rights reserved | This template is made with by Zahra </p>
+    <i class="fa-solid fa-heart"></i>
+</div>
+
+</body>
+</html>
